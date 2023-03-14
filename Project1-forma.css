@@ -1,0 +1,107 @@
+.backgr{
+    background-color: #fcd232;
+    border: hidden 2px solid;
+    padding: 1%;
+
+}
+
+.logo {
+    margin-left: 60px ;
+    height: 52px;
+    padding-left: 8%;   
+}
+.navbar-right {
+    padding-right: 130px;
+    color: black;
+}
+ul {
+    color: black;
+}
+.background-yellow {
+    background-color: #fcd232;
+    
+}
+.students {
+    text-align: center;
+    font-size: 423%;
+    font-weight: bold;
+    padding-top: 8%;
+    padding-bottom: 10%;
+
+}
+.margin-bott {
+    margin-bottom: 0%;
+}
+input {
+    width: 100%;
+    padding: 3%;
+    border-style: hidden;
+    border-radius: 8px;
+}
+.send {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-style: hidden;
+    margin-top: 7.6%;
+    border-radius: 8px;
+    padding: 2.7%;
+    width: 100%;
+
+    
+}
+.last{
+    background-color: black;
+    color: white;
+    text-align: center;
+   width: 100% !important;
+   margin-top: 20%;
+ 
+   
+}
+.bnone {
+   border: hidden !important;
+   margin: 0 !important;
+ 
+}
+
+.button-tip {
+
+    background-color: white;
+    padding-right: 119px !important;
+    padding-left: 105px !important;
+    margin-top: 7%;
+    padding-top: 3% !important;
+    padding-bottom: 2% !important;
+}
+h5 i {
+    font-size: 5px;
+}
+.red-button{
+    border: hidden;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    padding: 0;
+}
+li a b {
+    color: black;
+}
+.white-col {
+    color: white;
+}
+.dropdown-menu {
+    width: 100%;
+}
+
+
+
+select {
+    
+    padding-right: 103px;
+    padding-left: 103px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: hidden;
+    border-radius: 5px;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="Project1-forma.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <style>
+  @media (min-width: 320px) and (max-width: 480px) {
+   
+body {
+  background-color: #fcd232;
+}
+.bnone {
+  border: hidden !important;
+    margin: 0 !important;
+  
+}
+.button-tip {
+  
+  padding-right: 85px !important;
+    padding-left: 82px !important;
+}
+.logo {
+  margin-left: -24px;
+    height: 52px;
+    padding-left: 8%;
+}
+.students {
+  font-size: 200%;
+  width: 100%;
+}
+.send {
+  margin-top: 38.6%;
+}
+input {
+  padding: 3%;
+}
+.namee {
+  margin: 5px;
+}
+#select {
+  
+    width: 100%;
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: hidden;
+    border-radius: 5px;
+}
+  }
+  
+  @media (max-width: 1024px) and (min-width:481px) {
+   
+ .logo {
+   
+  margin-left: 281px;
+    height: 70px;
+    padding-left: 8% ;
+ }
+ 
+ .navbar-right {
+    float: right!important;
+    font-size: 66%;
+    margin-right: -17%;
+}
+select {
+    padding-right: 253px;
+    padding-left: 253px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: hidden;
+    border-radius: 5px;
+    height: 60px;
+}
+.send {
+  margin-top: 30%;
+}
+  }
+
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-default bnone">
+        <div class="container-fluid backgr">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="Project1.html" title=""><img class="logo" src="unnamed.png" alt="" class="img-responsive"></a>
+           
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          
+           
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://www.brainster.io/marketpreneurs"> <b>Академија за маркетинг</b> </a></li>
+              <li><a href="https://codepreneurs.co/"> <b>Академија за програмирање</b> </a></li>
+              <li><a href="#"> <b> Академија за data sciance</b></a></li>
+              <li><a href="https://www.brainster.io/design"> <b>Академија за дизајн</b> </a></li>
+              
+             
+              
+              <li class="dropdown red-button">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b class="white-col"> Вработи наш студент</b></a>
+              
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <div class="container-fluid background-yellow">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="students"> Вработи студенти</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-2">
+                        <p  class="namee"><b>Име и презиме</b> </p>
+                        <input type="text" placeholder="Вашето име и презиме">
+                    </div>
+                    <div class="col-md-4">
+                        <p class="namee"><b>Име на компанија</b> </p>
+                        <input type="text" placeholder="Име на вашата компанија">
+                    </div>
+                </div>
+                <div class="row">
+                  <form action="">
+                    <div class="col-md-4 col-md-offset-2">
+                      <p class="namee"><b>Контакт имејл</b> </p>
+                      <input type="text" placeholder="Контакт имејл на вашата компанија">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="namee"><b>Контакт телефон</b> </p>
+                      <input type="text" placeholder="Контакт телефон на вашата компанија">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4 col-md-offset-2 slt">
+                    <div class="btn-group ">
+                      <p class="namee"><b>Тип на студенти</b> </p>
+                      <select name="" id="select">
+                        
+                        <option value="">Изберете тип на студент</option>
+                        <option value="">Студенти од маркетинг</option>
+                        <option value="">Студенти од програмирање</option>
+                        <option value="">Студенти од data sciance</option>
+                        <option value="">Студенти од дизајн</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4 ">
+                      
+                      <button type="submit" class="send">ИСПРАТИ</button>
+                  </div>
+            
+          </div>
+          
+                  </form>
+        
+      </div>
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 last">
+            <h5> <span class="made-by">Изработено со <i class="fa fa-heart" style="font-size:17px;color:red"></i> од студентите на Brainster</span> </h5>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous"></script>
+</body>
+</html>

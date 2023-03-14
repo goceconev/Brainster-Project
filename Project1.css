@@ -1,0 +1,229 @@
+.navbar-background{
+    background-color: #fcd232;
+    padding-bottom: 1.8%;
+    padding-top: 1.8%;
+    margin-top: -1%;
+    margin-bottom: 0.7%;
+    height: 15vh;
+}
+.navbar{
+    margin-bottom: 1px;
+}
+.navbar-padding{
+    padding-bottom: 20%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.margin-left{
+    margin-right: 200px;
+}
+.logo {
+    margin-left: 60px ;
+    height: 52px;
+    padding-left: 8%;
+}
+.backgroundimg{
+    background: url(bbb.png) no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.9;
+    
+}
+.backgroundimg h1 {
+    color: white;
+    text-align: center;
+    padding-top:13% ;
+    font-size: 550%;
+    
+}
+.projects{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 13vh;
+    padding-top: 1.4%;
+    border-right: solid 1px gray;
+    padding-right: 5px;
+    padding-bottom: 6%;
+}
+.padd-left {
+    padding-left: 4%;
+}
+.backgr{
+    background-color: #fcd232;
+    width: 100%;
+    color: black;
+    text-align: center;
+    
+}
+.marketing{
+    border: solid hidden 1px;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 1%;
+    margin: 1%;
+    padding-top: 0.8%;
+    margin-top: 1%;
+}
+.marketing2 {
+    padding-bottom: 2%;
+}
+.marketing3 {
+    padding-bottom: 1%;
+}
+.marginnnn {
+    padding-left: 3% !important;
+}
+.back {
+    background-color: #fcd232;
+}
+.marketing img {
+    width: 100%;
+    
+}
+.red {
+    background-color: red;
+    color: white;
+    border: hidden;
+    border-radius: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-left: 60%;
+}
+.yellowbutton {
+    margin-top: 5%;
+    background-color:#fcd232 ;
+    border: hidden;
+    
+    padding: 1.7%;
+}
+.last {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    padding-right: 5%;
+    width: 100%;
+}
+.backgr{
+    background-color: #fcd232;
+    border: hidden 2px solid;
+    padding: 1%;
+
+}
+.navbar-right {
+    float: right!important;
+    margin-right: 69px ;
+    font-size: 98% !;
+    padding-right: 4%;
+}
+.background-col {
+    background-color: #fcd232;
+   
+}
+
+.red-button {
+    border: hidden;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    padding: 0;
+}
+h4 a {
+    text-decoration: none;
+    color: white;
+}
+h4 a :hover {
+    color: white;
+}
+  div h4 a:hover{
+    text-decoration: none;
+   
+  }
+ i {
+  
+     font-size: 150%;
+ }
+  .project {
+      padding-top: 3%;
+      font-size: 367%;
+  }
+  li a b {
+      color: black;
+  }
+  .white-col {
+    color: white;
+}
+.bnone {
+    
+    border: hidden !important;
+    margin: 0 !important;
+  
+ }
+ a button {
+     background-color: red;
+     border: hidden;
+     color: white;
+     
+ }
+.bold {
+    color: white;
+}
+
+img {
+    height: 165px;
+}
+.projects:hover {
+    background-color: red;
+    
+}
+.decoretion-none {
+    text-decoration: none;
+}
+
+span:hover {
+    color: rgb(44, 43, 43);
+}
+.made-by {
+    padding: 1% !important;
+}
+.marketing {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  .threeBoxes {
+    background-color: #222222;
+    color: white;
+    padding-top: 10%;
+    padding-bottom:10%;
+    padding-left: 3%;
+}
+.checkMark {
+    color: #222222;
+    padding-right: 42px;
+    margin-top: -39px;
+}
+.threeBoxes:hover {
+    background-color: #e23b35;
+    color: #222222;
+}
+.paddingTxt {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Box {
+    background-color: white;
+    border-radius: 5%;
+    border-radius: 5%;
+    transition: all .2s ease-in-out;
+}
+.Box:hover { transform: scale(1.1); }
+.threeBoxes-padding {
+   width: 100%;
+   height: 10vh;
+}
+

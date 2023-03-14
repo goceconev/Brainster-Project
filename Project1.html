@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="project1.css">
+    <title>Document</title>
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+ <!-- Optional theme -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+     integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<style>
+  @media (min-width: 359px) and (max-width: 639px) {
+   
+body {
+  background-color: #fcd232;
+}
+.bnone{
+  border: hidden !important;
+    margin: 0 !important;
+}
+.logo {
+  margin-left: -325px;
+  padding-left: 9%;
+}
+.project {
+  padding-top: 3%;
+    font-size: 299%;
+    text-align: left;
+    padding-left: 6px;
+}
+.backgroundimg h1 {
+    color: white;
+    text-align: center;
+    padding-top: 17%;
+    font-size: 415%;
+}
+.backgroundimg {
+  height: 200px;
+}
+.padd-left {
+    margin-top: 0%;
+    padding-left: 7%;
+    font-size: 134%;
+}
+.projects {
+  height: 9vh;
+  
+    height: 8vh;
+    padding-top: 0%;
+}
+
+.logo {
+  margin-left: -280px;
+    height: 52px;
+    padding-left: 8%;
+
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    font-size: 64%;
+    padding-right: 4%;
+}
+.threeBoxes-width {
+    width: 100%;
+}
+
+  }
+  @media (max-width: 1024px) and (min-width:481px) {
+   
+   .logo {
+    margin-left: 281px;
+      height: 70px;
+      padding-left: 8% ;
+   }
+   
+   .navbar-right {
+    float: right!important;
+    font-size: 64%;
+    margin-right: -2%;
+  }
+  .backgroundimg {
+    height: 32vh;
+}
+.backgroundimg h1 {
+  padding-top: 16%;
+}
+.red {
+  padding: 2%;
+    margin-left: 515px;
+    font-size: 138%;
+}
+}
+  </style>
+<body>
+  <div class="container-fluid back"></div>
+  <nav class="navbar navbar-default bnone">
+    <div class="container-fluid backgr">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="file:///C:/Users/Admin/Desktop/Project11/Project1.html" title=""><img class="logo" src="unnamed.png" alt="" class="img-responsive"></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+       
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.brainster.io/marketpreneurs"> <b>Академија за маркетинг</b> </a></li>
+          <li><a href="https://codepreneurs.co/"> <b>Академија за програмирање</b> </a></li>
+          <li><a href="#"> <b> Академија за data sciance</b></a></li>
+          <li><a href="https://www.brainster.io/design"> <b>Академија за дизајн</b> </a></li>
+          
+          
+          <li class="dropdown red-button">
+            <a href="Project1-forma.html"><button><b class="bold"> Вработи наш студент</b></button></a>
+           
+          </li>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+      
+
+     
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 backgroundimg">
+                    <h1>Brainster Labs</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid" id="myBtnContainer">
+        <div class="row">
+          <button class="col-md-4 col-sm-4 threeBoxes threeBoxes-width btn" onclick="filterSelection('Marketing')">
+            <div class="paddingTxt"><b class="paddinfgOnB">Проекти на студенти по академијата<br> за маркетинг</b></div>
+            <i class="fas fa-check-circle fa-2x checkMark pull-right"></i>
+          </button>
+          <button class="col-md-4 col-sm-4 threeBoxes threeBoxes-width btn borderLeft" onclick="filterSelection('Proggraming')">
+            <div class="paddingTxt"><b class="paddinfgOnB SecondProgg">Проекти на студенти по академијата<br> за
+                програмриање</b></div>
+            <i class="fas fa-check-circle fa-2x checkMark pull-right"></i>
+          </button>
+          <button class="col-md-4 col-sm-4 threeBoxes threeBoxes-width  btn borderLeft" onclick="filterSelection('Design')">
+            <div class="paddingTxt"><b class="paddinfgOnB ThirdDesign">Проекти на студенти по академијата<br> за дизјан</b>
+            </div>
+            <i class="fas fa-check-circle fa-2x checkMark pull-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="container-fluid back">
+        <div class="row">
+          <div class="col-md-12 backgr">
+            <h1 class="project">Проекти</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid marginnnn  background-col">
+
+     
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1 marketing Box Proggraming left">
+
+           <img  src="unnamed14.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b>Април-Октомври 2019</b> </p>
+            <button class="red">Дознај повеќе</button>
+          
+              
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Proggraming Box">
+            <img  src="unnamed12.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b>Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Proggraming Box">
+            <img class="img-2" src="unnamed2.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b>Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="container-fluid marginnnn background-col">
+
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1 marketing Proggraming Box">
+
+           <img  src="unnamed11.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+              
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Proggraming Box">
+            <img  src="unnamed13.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p>  <b> Април-Октомври 2019</b></p >
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Proggraming Box">
+            <img  class="img-2" src="unnamed15.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1 marketing Proggraming Box">
+
+           <img  class="img-2" src="unnamed16.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+              
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Proggraming Box">
+            <img class="img-2" src="unnamed12.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p>  <b> Април-Октомври 2019</b></p >
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Proggraming Box">
+            <img class="img-2" src="unnamed8.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за програмирање
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+        </div>
+      </div>  <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1 marketing Marketing Box">
+
+           <img  src="unnamed17.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за маркетинг
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+              
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Marketing Box">
+            <img class="img-2"  src="unnamed1.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за маркетинг
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p>  <b> Април-Октомври 2019</b></p >
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Marketing Box">
+            <img  src="unnamed11.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за маркетинг
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1 marketing Marketing Box">
+
+           <img  src="unnamed7.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за маркетинг
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+              
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Marketing Box">
+            <img  class="img-2" src="unnamed1.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за маркетинг
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p>  <b> Април-Октомври 2019</b></p >
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Marketing Box">
+            <img  src="download3.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за маркетинг
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1 marketing Design Box">
+
+           <img  src="unnamed10.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за дизајн
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+              
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Design Box">
+            <img  class="img-2" src="unnamed10.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за дизајн
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p>  <b> Април-Октомври 2019</b></p >
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Design Box">
+            <img  src="unnamed10.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за дизајн
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1 marketing Design Box">
+
+           <img  class="img-2" src="unnamed10.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за дизајн
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p><b> Април-Октомври 2019</b></p>
+            <button class="red">Дознај повеќе</button>
+          
+              
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Design Box">
+            <img  src="unnamed10.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за дизајн
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p>  <b> Април-Октомври 2019</b></p >
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+          <div class="col-md-3 col-md-offset- marketing Design Box">
+            <img  src="unnamed10.png" alt="">
+
+            <button class="yellowbutton">
+              Академија за дизајн
+            </button>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>Краток опис во кој студентите ке можат да опишат за што се работи во проектот</p>
+            <p>  <b> Април-Октомври 2019</b></p >
+            <button class="red">Дознај повеќе</button>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 last">
+            <h5> Изработено со <i class="fa fa-heart" style="font-size:17px;color:red"></i> од студентите на Brainster</h5>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("marketing");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }</script>
+</html>
